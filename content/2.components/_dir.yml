@@ -1,3 +1,4 @@
 title: Components
-navigation.redirect: /components/prose/markdown
+# navigation.redirect: /components/prose/markdown
+navigation: false
 icon: lucide:box
