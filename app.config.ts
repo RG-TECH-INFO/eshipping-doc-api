@@ -1,8 +1,8 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'eShipping API Documentation',
+      description: 'Complete API documentation for eShipping services. Explore endpoints, authentication, and integration guides.',
       ogImage: '/hero.png',
       ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'light',
@@ -18,15 +18,15 @@ export default defineAppConfig({
       radius: 0.5,
     },
     banner: {
-      enable: false,
+      enable: true,
       showClose: true,
-      content: 'Welcome to **shadcn-docs-nuxt**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-      target: '_blank',
+      content: 'Welcome to **eShipping API Documentation**',
+      to: '/api/configuration/shadcn-docs',
+      target: '_self',
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'eShipping API',
       showTitle: true,
       logo: {
         light: '/logo.svg',
@@ -40,62 +40,15 @@ export default defineAppConfig({
         dropdownType: 'select',
       },
       nav: [{
-        title: 'Docs',
-        links: [{
-          title: 'Getting Started',
-          to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
-          icon: 'lucide:rocket',
-        }, {
-          title: 'Components',
-          to: '/components/prose',
-          description: 'Explore available UI components and usage examples.',
-          icon: 'lucide:box',
-        }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
-          target: '_self',
-          icon: 'lucide:code',
-        }],
-      }, {
-        title: 'Credits',
-        links: [{
-          title: 'shadcn-ui',
-          to: 'https://ui.shadcn.com/',
-          description: 'For the beautiful component design & docs design',
-          target: '_blank',
-        }, {
-          title: 'shadcn-vue',
-          to: 'https://www.shadcn-vue.com/',
-          description: 'For the vue port of shadcn-ui & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Docus',
-          to: 'https://docus.dev/',
-          description: 'For inspiration & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Nuxt Content',
-          to: 'https://content.nuxt.com/',
-          description: 'Content made easy for Vue Developers',
-          target: '_blank',
-        }],
-      }, {
-        title: 'Blog',
-        to: '/blog',
+        title: 'API',
+        to: '/api/configuration/shadcn-docs',
         target: '_self',
         showLinkIcon: false,
       }],
       links: [
         {
-          icon: 'lucide:coffee',
-          to: 'https://ko-fi.com/ztl_uwu',
-          target: '_blank',
-        },
-        {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/your-username/eshipping-api',
           target: '_blank',
         },
       ],
@@ -168,33 +121,19 @@ export default defineAppConfig({
     },
     footer: {
       border: true,
-      credits: 'FOOTER_CREDIT',
+      credits: 'eShipping API Documentation',
       links: [
         {
-          icon: 'lucide:heart',
-          title: 'Sponsor Me',
-          to: 'https://ko-fi.com/ztl_uwu',
-          target: '_blank',
-        },
-        {
-          icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
-          target: '_blank',
-        },
-        {
-          icon: 'lucide-lab:butterfly',
-          to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
-          target: '_blank',
-        },
-        {
-          icon: 'simple-icons:discord',
-          to: 'https://discord.gg/9P5HzAz8DT',
-          target: '_blank',
-        },
-        {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          title: 'GitHub',
+          to: 'https://github.com/your-username/eshipping-api',
           target: '_blank',
+        },
+        {
+          icon: 'lucide:book-open',
+          title: 'API Reference',
+          to: '/api/configuration/shadcn-docs',
+          target: '_self',
         },
       ],
     },
@@ -205,44 +144,29 @@ export default defineAppConfig({
       title: 'On this page',
       links: [
         {
-          title: 'Star on GitHub',
-          icon: 'lucide:star',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-          target: '_blank',
+          title: 'API Reference',
+          icon: 'lucide:book-open',
+          to: '/api/configuration/shadcn-docs',
+          target: '_self',
           showLinkIcon: true,
         },
         {
-          title: 'Create Issues',
-          icon: 'lucide:circle-dot',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+          title: 'GitHub Repository',
+          icon: 'lucide:github',
+          to: 'https://github.com/your-username/eshipping-api',
           target: '_blank',
           showLinkIcon: true,
         },
       ],
       iconLinks: [
         {
-          icon: 'lucide:coffee',
-          to: 'https://ko-fi.com/ztl_uwu',
-          target: '_blank',
-        },
-        {
-          icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
-          target: '_blank',
-        },
-        {
-          icon: 'lucide-lab:butterfly',
-          to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
-          target: '_blank',
-        },
-        {
-          icon: 'simple-icons:discord',
-          to: 'https://discord.gg/9P5HzAz8DT',
+          icon: 'lucide:github',
+          to: 'https://github.com/your-username/eshipping-api',
           target: '_blank',
         },
       ],
       carbonAds: {
-        enable: true,
+        enable: false,
         disableInDev: true,
         disableInMobile: false,
         fallback: false,
