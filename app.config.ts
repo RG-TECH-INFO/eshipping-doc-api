@@ -26,7 +26,7 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: 'eShipping API',
+      title: 'API DOC',
       showTitle: true,
       logo: {
         light: '/logo.svg',
@@ -39,19 +39,9 @@ export default defineAppConfig({
         triggerType: 'icon',
         dropdownType: 'select',
       },
-      nav: [{
-        title: 'API',
-        to: '/api/configuration/shadcn-docs',
-        target: '_self',
-        showLinkIcon: false,
-      }],
-      links: [
-        {
-          icon: 'lucide:github',
-          to: 'https://github.com/your-username/eshipping-api',
-          target: '_blank',
-        },
-      ],
+      nav: [],
+      redirect: '/api',
+      links: [],
     },
     aside: {
       useLevel: true,
