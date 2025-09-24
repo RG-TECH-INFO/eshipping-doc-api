@@ -1,0 +1,3 @@
+title: Retiradas
+icon: lucide:folder
+navigation.redirect: /api/retirada/cria
