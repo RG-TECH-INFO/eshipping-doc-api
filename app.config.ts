@@ -58,8 +58,8 @@ export default defineAppConfig({
       codeCopyIcon: 'lucide:clipboard',
       editLink: {
         enable: true,
-        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/www/content/:path',
-        text: 'Edit this page',
+        pattern: '/',
+        text: '-',
         icon: 'lucide:square-pen',
         placement: ['docsFooter'],
       },
